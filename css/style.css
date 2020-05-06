@@ -1,6 +1,6 @@
 :root{
     --primary-color:#7132a2;
-    --secondary-color:#8395A7;
+    --secondary-color:rgb(173, 198, 223);
     --tertiary-color:#f4faff;
 }
 .active{
@@ -59,7 +59,7 @@ a{
 }
 .col-nav:hover{
     width: 35vh;
-    transition: .3s linear;
+    transition: .2s ease-out;
 }
 .col-nav-logo{
     width: 100%;
