@@ -1,0 +1,219 @@
+:root{
+    --primary-color:#7132a2;
+    --secondary-color:#8395A7;
+    --tertiary-color:#f4faff;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: var(--secondary-color);
+}
+a{
+    text-decoration: none;
+}
+.top-nav{
+    height: 50px;
+    background-color: var(--tertiary-color);
+}
+.top-nav-logo{
+    float: right;
+    margin-right: 18px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    text-align: center;
+    width: 95vw;
+    height: 500px;
+    background-color: var(--secondary-color);
+    vertical-align: center;
+}
+.main-image{
+    width: 95%;
+    height: 85vh;
+    margin-top: 20px;
+}
+.col-nav{
+    display: flex;
+    width: 5vw;
+    overflow: hidden;
+    min-height: 100vh;
+    background-color: var(--tertiary-color);
+    flex-direction: column;
+}
+.col-nav:hover{
+    width: 35vh;
+}
+.col-nav-logo{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    border-right: 1px solid rgb(230, 230, 230);
+}
+.fa{
+    font-size: 35px;
+    color: var(--secondary-color);
+}
+span a{
+    margin-left: 25px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu-item{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    text-align: end;
+    vertical-align: center;
+}
+.btn{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    padding: 12px 35px;
+    border-radius: 20px;
+    border: none;
+
+    font-size: 20px;
+}
+.purple{
+    background-color: var(--primary-color);
+    color:white;    
+}
+.yellow{
+    background-color: #F4C724;
+    color:white;
+}
+.threeimages{
+    padding-top: 20px; ;
+    text-align: center;
+    width: 95vw;
+    height: 500px;
+    background-color: var(--secondary-color);
+    vertical-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.first{
+    text-align: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    background-image: url('../images/construction.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.second{
+    text-align: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    background-image: url('../images/furniture.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.third{
+    text-align: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    background-image: url('../images/bulb.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.details{
+    color: #F4C724;
+    position: absolute;
+    top: 90% ;
+    font-weight: 800;
+    font-size: 20px;
+}
+.maplist{
+    position: absolute;
+    display: block;
+    list-style: none;
+    top: 12%;
+    cursor: pointer;
+}
+.green{
+    background-color: rgb(14, 212, 14);
+}
+.maplistitem{
+    border-radius: 10px;
+    padding: 8px 15px;
+    float: right;
+    margin-right: 30px;
+    color: white;
+    border: 1px solid white;
+}
+.maplistitem>a{
+    color: white;
+}
+.video{
+    padding: 20px 40px;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.holder1{
+    padding-left: 20px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.video1{
+    background:url('../images/puranik_builders.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 470px;
+    height: 220px;
+    background-size: cover;
+}
+.images{
+    padding: 20px 40px;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+.holder{
+    display: flex;
+    justify-content: space-between;
+}
+.image1{
+    background:url('../images/puranik_builders.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+.image2{
+    background:url('../images/puranik_builders.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}.image3{
+    background:url('../images/puranik_builders.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}.image4{
+    background:url('../images/puranik_builders.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
