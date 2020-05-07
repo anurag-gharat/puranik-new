@@ -57,7 +57,7 @@ a{
 .content{
     text-align: center;
     width: 95vw;
-    height: 100%;
+    height: auto;
     background-color: var(--secondary-color);
     vertical-align: center;
 }
@@ -291,11 +291,7 @@ h2{
     width: 100%;
     padding-bottom: 10px;
 }
-.card>div{
-    padding:0px;
-    width: 50%;
-    float: left;
-}
+
 h1{
     margin: 0px;
 }
@@ -305,13 +301,7 @@ h1{
     padding:15px 0px!important;
     color: var(--primary-color);
 }
-.details>.card{
-    width: 16%;
-    float: left;
-    margin: 0px 10px;
-    padding:10px 2px;
-    background-color: white;
-}
+
 .text{
     padding-top:15px !important;
     color: var(--primary-color);
@@ -321,17 +311,31 @@ h1{
     color: #F4C724;
 
 }
-.jumbotron{
-    margin-top: 20px;
-    width: 100%;
-    background-color: var(--primary-color);
-}
+
 .s{
     font-size: 1rem !important;
 }
-.wholewidth>div>h1{
-    background-color: #F4C724;
-    margin-top: 50px !important;
+.wholewidth{
+    margin-top: 10px;
+    background-color: var(--primary-color);
+    color:white;
+    width: 90%;
+    margin-left: 5%;
+    padding: 20px 10px;
+    text-align: left;
+    padding-left: 10px;
+}
+.middlecards{
+    width: 100%;
+    float: left;
+}
+.cardFirst{
+    width: 23%;
+    height: auto;
+}
+.cardFirst>div{
+    width: 50%;
+    float: left;
 }
 .mycontent{
     width: 100%;
