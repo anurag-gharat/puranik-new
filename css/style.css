@@ -184,62 +184,36 @@ span a{
 .video{
     padding: 20px 40px;
     width: 100%;
-    height: 50%;
-    background-color: white;
+    height: 250px;
     display: flex;
     flex-direction: column;
 }
-.holder1{
+.videoholder{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 60px;
+    display: flex;
+}
+.videoholder>a>img{
+    height: 250px;
+    width: 530px;
+    margin-right: 40px;
+}
+.images{
+    padding: 20px 40px;
+    width: 100%;
+    height: 250px;
+
+}
+.imagesholder{
+    width: 90%;
     padding-left: 20px;
     padding-right: 60px;
     display: flex;
     justify-content: space-between;
 }
-.video1{
-    background:url('../images/puranik_builders.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 470px;
-    height: 220px;
-    background-size: cover;
-}
-.images{
-    padding: 20px 40px;
-    width: 100%;
-    height: 50%;
-    background-color: white;
-}
-.holder{
-    display: flex;
-    justify-content: space-between;
-}
-.image1{
-    background:url('../images/am1.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-}
-.image2{
-    background:url('../images/puranik_builders.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-}.image3{
-    background:url('../images/puranik_builders.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-}.image4{
-    background:url('../images/puranik_builders.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 200px;
-    height: 200px;
-    background-size: cover;
+.imagesholder>a>img{
+    width: 250px;
+    height: 250px;
+
 }
