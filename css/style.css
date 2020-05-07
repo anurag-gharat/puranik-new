@@ -13,13 +13,14 @@
     height: 500vh !important;
 }
 .active .fa,.active>span>a{
-color: white;
+color: white !important;
 }
 .floorwise{
     margin-left: 80px !important;
 }
 .menu-item>span>a{
     font-size: 16px;
+    color:var(--primary-color) !important;
 }
 .activef{
     background-color: var(--primary-color);
@@ -39,8 +40,8 @@ body{
     overflow-x: hidden;
     background-color: var(--secondary-color);
 }
-a{
-    text-decoration: none;
+a,a:hover{
+    text-decoration: none !important;
 }
 .top-nav{
     height: 50px;
@@ -252,34 +253,22 @@ h2{
     max-width: 100%;
     height: 100%;
 }
-.lists{
-    background-color: white;
-    margin: 0px 1%;
-    width: 36%;
-    float: right;
-    height: 300px;
-    text-align: left;
-}
-.lists>h3{
-    margin-left: 10px;
-    color: var(--primary-color);
-    font-size: 1.25rem;
-}
+
 .half{
     width: 50%;
     float: left;
 }
-.half>ul {
+.col-sm-6>ul {
     list-style: none; /* Remove default bullets */
     text-align: left;
 }
-.half>ul>li{
+.col-sm-6>ul>li{
     color: var(--primary-color);
     margin-top: 20px;
 }
 
   
-.half>ul>li::before {
+.col-sm-6>ul>li::before {
     content: "\2022"; 
     color: #F4C724;
     font-weight: bold; 
@@ -387,4 +376,8 @@ h1{
     padding: 15px;
     width: 20%;
     float: right;
+}
+.text-purple{
+    color: var(--primary-color);
+    font-weight: bold;
 }
