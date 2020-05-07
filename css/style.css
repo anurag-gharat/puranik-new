@@ -13,6 +13,22 @@
 .active .fa,.active>span>a{
 color: white;
 }
+.floorwise{
+    margin-left: 80px !important;
+}
+.menu-item>span>a{
+    font-size: 16px;
+}
+.activef{
+    background-color: var(--primary-color);
+    color: white !important;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-left:0px !important;
+}
+.activef a{
+    color: white;
+}
 body{
     width: 100vw;
     height: 100vh;
@@ -57,9 +73,11 @@ a{
     background-color: var(--tertiary-color);
     flex-direction: column;
     padding-left: 10px;
+    line-break: normal;
+    white-space: nowrap;
 }
 .col-nav:hover{
-    width: 35vh;
+    width: 23vw;
     transition: .2s ease-out;
 }
 .col-nav-logo>img{
@@ -69,7 +87,7 @@ a{
     margin-left: 15px;
 }
 .col-nav-logo>a{
-    margin-left: 20px;
+    margin-left: 40px;
     font-size: 25px;
     margin-top: 10px;
 }
@@ -87,7 +105,7 @@ a{
     color: var(--secondary-color);
 }
 span a{
-    margin-left: 25px;
+    margin-left: 40px;
     font-size: 20px;
     text-decoration: none;
 }
@@ -121,7 +139,7 @@ span a{
     padding-top: 20px; ;
     text-align: center;
     width: 95vw;
-    height: 500px;
+    height: 100%;
     background-color: var(--secondary-color);
     vertical-align: center;
     
@@ -135,13 +153,15 @@ span a{
 .whyusimage{
     float: left;
     width: 30%;
-    margin:30px 10px;
-    height: 500px;
+    margin-top:30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 100vh;
 }
 .whyusimage>a{
     color: #F4C724;
     position: absolute;
-    bottom: 40px;
+    bottom: 20px;
     font-weight: bold;
 }
 .one{
