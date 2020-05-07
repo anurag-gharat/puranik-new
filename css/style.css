@@ -339,7 +339,7 @@ h1{
     float: left;
     padding:15px;
 }
-.firstrow>img{
+.firstrow>a>img{
     width: 100%;
     height: 250px;
     margin: 0px;
