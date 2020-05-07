@@ -182,38 +182,39 @@ span a{
     color: white;
 }
 .video{
-    padding: 20px 40px;
-    width: 100%;
+    padding: 0px 0px;
     height: 250px;
-    display: flex;
+    margin-bottom: 20px;
     flex-direction: column;
 }
 .videoholder{
     width: 100%;
-    padding-left: 20px;
-    padding-right: 60px;
-    display: flex;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    padding-right: 0px; 
 }
 .videoholder>a>img{
     height: 250px;
-    width: 530px;
-    margin-right: 40px;
+    width: 500px;
+    margin-left: 0px;
+    margin-right: 20px;
 }
 .images{
-    padding: 20px 40px;
+    padding: 0px 0px;
     width: 100%;
-    height: 250px;
-
+    height: 200px;
 }
 .imagesholder{
     width: 90%;
     padding-left: 20px;
-    padding-right: 60px;
-    display: flex;
+    padding-right: 0px;
+    padding-top: 20px;
     justify-content: space-between;
 }
 .imagesholder>a>img{
-    width: 250px;
+    width: 20%;
     height: 250px;
+    margin-right: 20px;
 
 }
