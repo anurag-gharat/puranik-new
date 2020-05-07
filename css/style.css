@@ -8,7 +8,9 @@
     color: white;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-
+}
+.moreheight{
+    height: 500vh !important;
 }
 .active .fa,.active>span>a{
 color: white;
@@ -55,7 +57,7 @@ a{
 .content{
     text-align: center;
     width: 95vw;
-    height: 500px;
+    height: 100%;
     background-color: var(--secondary-color);
     vertical-align: center;
 }
@@ -173,13 +175,7 @@ span a{
 .three{
     left: 85%;
 }
-.details{
-    color: #F4C724;
-    position: absolute;
-    top: 90% ;
-    font-weight: 800;
-    font-size: 20px;
-}
+
 .maplist{
     position: absolute;
     display: block;
@@ -238,4 +234,151 @@ span a{
     height: 50vh;
     margin-right: 20px;
 
+}
+.aboutcontainer{
+    margin: 0px;
+    width: 100%;
+    height: auto;
+}
+h2{
+    color: var(--primary-color) !important;    
+}
+.bigimage{
+    width: 60%;
+    float: left;
+    height: 300px;
+}
+.bigimage>img{
+    max-width: 100%;
+    height: 100%;
+}
+.lists{
+    background-color: white;
+    margin: 0px 1%;
+    width: 36%;
+    float: right;
+    height: 300px;
+    text-align: left;
+}
+.lists>h3{
+    margin-left: 10px;
+    color: var(--primary-color);
+    font-size: 1.25rem;
+}
+.half{
+    width: 50%;
+    float: left;
+}
+.half>ul {
+    list-style: none; /* Remove default bullets */
+    text-align: left;
+}
+.half>ul>li{
+    color: var(--primary-color);
+    margin-top: 20px;
+}
+
+  
+.half>ul>li::before {
+    content: "\2022"; 
+    color: #F4C724;
+    font-weight: bold; 
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em; 
+  }
+.details{
+    width: 100%;
+    padding-bottom: 10px;
+}
+.card>div{
+    padding:0px;
+    width: 50%;
+    float: left;
+}
+h1{
+    margin: 0px;
+}
+.textextra{
+    width: 100% !important;
+    height: 100%;
+    padding:15px 0px!important;
+    color: var(--primary-color);
+}
+.details>.card{
+    width: 16%;
+    float: left;
+    margin: 0px 10px;
+    padding:10px 2px;
+    background-color: white;
+}
+.text{
+    padding-top:15px !important;
+    color: var(--primary-color);
+}
+.card>div>h1{
+    font-size: 4rem;
+    color: #F4C724;
+
+}
+.jumbotron{
+    margin-top: 20px;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+.s{
+    font-size: 1rem !important;
+}
+.wholewidth>div>h1{
+    background-color: #F4C724;
+    margin-top: 50px !important;
+}
+.mycontent{
+    width: 100%;
+    height: 100%;
+    padding: 0px !important;
+    margin: 0px;
+}
+.firstrow{
+    margin: 0px !important;
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding:15px;
+}
+.firstrow>img{
+    width: 100%;
+    height: 250px;
+    margin: 0px;
+}
+.secondrow{
+    padding:15px;
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.secondrow>img{
+    width: 100%;
+    height: 750px;
+}
+.thirdrow{
+    margin-top: 15px;
+    padding-top:15px;
+    width: 45%;
+    height: 100%;
+    background-color: #fff;
+    float: left;
+}
+.thirdrow>.row{
+    width: 100%;
+    background-color: #7132a2;
+}
+.col7{
+    text-align: left;
+    width: 70%;
+    float: left;
+}
+.col3{
+    width: 30%;
+    float: right;
 }
