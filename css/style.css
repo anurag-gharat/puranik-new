@@ -377,8 +377,10 @@ h1{
     text-align: left;
     width: 70%;
     float: left;
+    padding: 10px;
 }
 .col3{
-    width: 30%;
+    padding: 15px;
+    width: 20%;
     float: right;
 }
