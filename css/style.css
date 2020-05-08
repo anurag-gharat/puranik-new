@@ -48,13 +48,13 @@ a,a:hover{
     text-decoration: none !important;
 }
 .top-nav{
-    
+    width: 101%;
     height: 50px;
     background-color: var(--tertiary-color);
 }
 .top-nav-logo{
     float: right;
-    margin-right: 18px;
+    margin-right: 5px;
 }
 .main{
     display: flex;
