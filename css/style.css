@@ -351,7 +351,7 @@ h1{
 }
 .secondrow{
     padding:15px;
-    width: 25%;
+    width: 23%;
     height: 790px !important;
     float: left;
 }
@@ -365,7 +365,7 @@ h1{
     width: 45%;
     height: 735px;
     background-color: #fff;
-    float: left;
+    float: right;
 }
 .thirdrow>.row{
     width: 100%;
