@@ -16,21 +16,22 @@
 color: white !important;
 }
 .floorwise{
-    margin-left: 80px !important;
+    margin-left: 70px !important;
 }
 .menu-item>span>a{
-    font-size: 16px;
+    font-size: 14px;
     color:var(--primary-color) !important;
 }
 .activef{
     background-color: var(--primary-color);
     color: white !important;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     padding-left:0px !important;
 }
 .activef a{
     color: white;
+    margin-left: 5px !important;
 }
 body{
     width: 100vw;
@@ -70,7 +71,7 @@ a,a:hover{
 }
 .col-nav{
     display: flex;
-    width: 5vw;
+    width: 4vw;
     overflow: hidden;
     min-height: 100vh;
     background-color: var(--tertiary-color);
@@ -80,19 +81,22 @@ a,a:hover{
     white-space: nowrap;
 }
 .col-nav:hover{
-    width: 23vw;
+    width: 15vw;
     transition: .2s ease-out;
 }
+
 .col-nav-logo>img{
     height: 30px;
     width: 30px;
     margin-top: 10px;
     margin-left: 15px;
 }
-.col-nav-logo>a{
-    margin-left: 40px;
+.col-nav-logo>a>img{
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
     font-size: 25px;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .col-nav-logo{
     color: var(--primary-color);
@@ -116,7 +120,7 @@ span a{
     margin: 10px 0px;
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
     text-align: end;
     vertical-align: center;
 }
