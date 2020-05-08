@@ -148,25 +148,20 @@ span a{
     
     justify-content: space-evenly;
 }
-.whyusimage>img{
+.whyusimage>a>img{
     height: 100%;
     width: 100%;
     position: relative;
 }
 .whyusimage{
     float: left;
-    width: 30%;
+    width: 31%;
     margin-top:30px;
     margin-right: 10px;
     margin-left: 10px;
     height: 100vh;
 }
-.whyusimage>a{
-    color: #F4C724;
-    position: absolute;
-    bottom: 20px;
-    font-weight: bold;
-}
+
 .one{
     left: 20%;
 }
