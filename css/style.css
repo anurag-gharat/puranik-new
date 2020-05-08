@@ -18,6 +18,9 @@ color: white !important;
 .floorwise{
     margin-left: 70px !important;
 }
+.floorwise1{
+    margin-left: 30px !important;
+}
 .menu-item>span>a{
     font-size: 14px;
     color:var(--primary-color) !important;
@@ -328,26 +331,28 @@ h1{
 }
 .mycontent{
     width: 100%;
-    height: 100%;
-    padding: 0px !important;
-    margin: 0px;
+    height: 750px;
+    padding: 15px !important;
+    margin-left: 10px;
 }
 .firstrow{
+    height: 765px;
     margin: 0px !important;
     width: 25%;
     height: 100%;
     float: left;
     padding:15px;
+
 }
 .firstrow>a>img{
     width: 100%;
-    height: 250px;
+    height: 247px;
     margin: 0px;
 }
 .secondrow{
     padding:15px;
     width: 25%;
-    height: 100%;
+    height: 790px !important;
     float: left;
 }
 .secondrow>img{
@@ -358,7 +363,7 @@ h1{
     margin-top: 15px;
     padding-top:15px;
     width: 45%;
-    height: 100%;
+    height: 735px;
     background-color: #fff;
     float: left;
 }
