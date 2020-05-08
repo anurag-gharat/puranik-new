@@ -184,7 +184,7 @@ span a{
     position: absolute;
     display: block;
     list-style: none;
-    top: 12%;
+    top: 20%;
     cursor: pointer;
 }
 .green{
@@ -194,7 +194,7 @@ span a{
     border-radius: 10px;
     padding: 8px 15px;
     float: right;
-    margin-right: 30px;
+    margin-right: 25px;
     color: white;
     border: 1px solid white;
 }
