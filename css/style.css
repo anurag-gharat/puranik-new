@@ -45,6 +45,7 @@ a,a:hover{
     text-decoration: none !important;
 }
 .top-nav{
+    
     height: 50px;
     background-color: var(--tertiary-color);
 }
@@ -76,7 +77,7 @@ a,a:hover{
     min-height: 100vh;
     background-color: var(--tertiary-color);
     flex-direction: column;
-    padding-left: 10px;
+    padding-left: 3px;
     line-break: normal;
     white-space: nowrap;
 }
