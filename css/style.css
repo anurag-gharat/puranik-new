@@ -9,6 +9,10 @@
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
+.grayscale{
+    filter: brightness(60%) !important;
+}
+
 .moreheight{
     height: 500vh !important;
 }
@@ -51,6 +55,7 @@ body{
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif !important;
     background-color: var(--secondary-color);
 }
 a,a:hover{
