@@ -424,7 +424,7 @@ nav>.leftlogo{
     padding-left: 10px;
     float: left;
     width: 4vw;
-    min-height: 100%;
+    min-height: 100vh;
     overflow: hidden;
     background-color: var(--tertiary-color);
 }
